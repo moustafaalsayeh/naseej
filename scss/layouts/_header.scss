@@ -1,0 +1,42 @@
+.naseej-header-wrapper {
+    position: absolute;
+    z-index: 10000;
+    left: 0;
+    right: 0;
+}
+.naseej-secondary-header {
+    &:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}
+.naseej-primary-header {
+    &:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}
+
+.naseej-secondary-menu {
+    padding: 10px;
+
+    a {
+        margin: 15px;
+        font-family: "Myriad Pro";
+        font-weight: bold;
+        color: #a0a0a0;
+    }
+}
+
+.naseej-main-menu {
+    border-top: 1.1px solid #635b59;
+    border-bottom: 1.1px solid #635b59;
+    padding: 15px 15px;
+
+    a {
+        color: #FFF;
+        margin: 15px;
+    }
+}

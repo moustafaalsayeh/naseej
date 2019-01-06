@@ -1,0 +1,90 @@
+.tabs {
+    .tabs-title {
+        color: #231f20;
+    }
+    .tab-pane {
+        padding-top: 25px;
+    }
+    .text-tab-content {
+        color: #848484;
+        line-height: 30px;
+        text-align: justify;
+    }
+
+    .nav {
+        padding-right: 100px;
+
+        a:hover {
+            border-color: transparent;
+            background-color: transparent;
+        }
+    }
+
+    .nav-tabs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 2px solid #c1c1c1;
+
+        li.active {
+            a {
+                border: 2px solid #c1c1c1;
+                border-radius: 10px 10px 0 0;
+                border-bottom: 2px solid #FFF;
+            }
+
+            p {
+                color: #a12226;
+                font-weight: bold;
+                font-size: larger;
+            }
+
+            .service-icon {
+                background-color: #a12226;
+                border: 5px solid #ba6164;
+            }
+        }
+
+        li {
+            float: right;
+            margin-right: 25px;
+            margin-bottom: -2px;
+
+            .service-icon {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #848484;
+                width: 115px;
+                height: 115px;
+                border: 5px solid #c1c1c1;
+                border-radius: 50%;
+                margin: 10px auto;
+
+                img {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+
+            p {
+                text-align: center;
+                color: #848484;
+                font-weight: bold;
+            }
+
+            a {
+                color: #848484;
+                padding: 10px 40px;
+            }
+        }
+    }
+}
+
+.header-title-line {
+    border-bottom: 2px solid #e4d2a3;
+    margin-top: 35px;
+    width: 756px;
+    margin-right: 260px;
+}

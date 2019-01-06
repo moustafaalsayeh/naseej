@@ -1,0 +1,26 @@
+@font-face {
+    font-family: PrimaryFont;
+    src: url("../fonts/GE_SS_Two_Light.otf");
+}
+* {
+    direction: $pageDirection;
+    text-align: right;
+}
+body {
+    padding-bottom: 200px;
+}
+a {
+    font-family: PrimaryFont;
+}
+a:hover {
+    text-decoration: none;
+}
+h1, h2, h3, h4 ,h5 , h6 {
+    font-family: PrimaryFont;
+    color: #FFF;
+}
+p {
+    font-family: PrimaryFont;
+    color: #FFF;
+    margin: 0;
+}

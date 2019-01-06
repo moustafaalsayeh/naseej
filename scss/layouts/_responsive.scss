@@ -1,0 +1,561 @@
+@media only screen and (max-width: 999px) {
+    .naseej-header-wrapper {
+        .naseej-secondary-header {
+            margin-top: 50px;
+            .naseej-secondary-menu {
+                text-align: center;
+                float: unset !important;
+            }
+        }
+        .naseej-primary-header {
+            .naseej-logo.pull-right {
+                text-align: center;
+                float: unset !important;
+                margin-bottom: 15px;
+                margin-top: 15px;
+            }
+            .naseej-main-menu {
+                text-align: center;
+                float: unset !important;
+            }
+        }
+    }
+    .naseej-homepage-slider .carousel-caption {
+        display: none;
+    }
+    .tabs {
+        .nav {
+            padding-right: 0;
+        }
+        .tabs-title {
+            font-size: 18px;
+        }
+        .nav-tabs {
+            li {
+                a {
+                    color: #848484;
+                    padding: 0 20px;
+                }
+                .service-icon {
+                    width: 70px;
+                    height: 70px;
+                    img {
+                        width: 50%;
+                    }
+                }
+                &.active p {
+                    font-size: 14px;
+                }
+            }
+        }
+        .header-title-line {
+            width: 450px;
+            margin-right: 130px;
+            margin-top: 28px;
+        }
+        .bg-white {
+            margin-left: 10px;
+            margin-top: 10px;
+        
+        }
+        
+    }
+}
+@media only screen and (max-width: 800px) {
+    .naseej-main-menu {
+        display: none;
+    }
+    .tabs {
+        .nav-tabs {
+            li {
+                p {
+                    display: none;
+                }
+            }
+        }
+        .header-title-line {
+            width: 390px;
+        }
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .tabs {
+        .header-title-line {
+            width: 300px;
+        }
+        .nav-tabs {
+            li {
+                a {
+                    color: #848484;
+                    padding: 0 10px;
+                }
+                .service-icon {
+                    width: 30px;
+                    height: 30px;
+                    img {
+                        width: 80%;
+                    }
+                }
+            }
+        }
+        .text-tab-content {
+            padding: 10px;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .tabs {
+        .header-title-line {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .naseej-homepage-slider {
+        .carousel-indicators {
+            display: none;
+        }
+    }
+}
+
+
+
+/* MIN Width */
+@media only screen and (min-width: 1000px) {
+    .naseej-homepage-slider {
+        .carousel-caption {
+            right: 6%;
+            left: 6%;
+
+            h2 {
+                font-size: 27px;
+                line-height: 35px;
+            }
+
+            .slide-image {
+                width: 400px;
+            }
+        }
+    }
+    .tabs {
+        .nav {
+            padding-right: 0;
+        }
+        .tabs-title {
+            font-size: 20px;
+        }
+        .nav-tabs {
+            li {
+                a {
+                    color: #848484;
+                    padding: 0 20px;
+                }
+            }
+        }
+        .header-title-line {
+            width: 650px;
+            margin-right: 160px;
+        }
+        .bg-white {
+            margin-left: 20px;
+        }
+    }
+    .naseej-header-wrapper {
+        width: 980px;
+    }
+    .carousel {
+        .block {
+            .block-title {
+                font-size: 15px;
+            }
+        }
+        .carousel-control {
+            display: block;
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .carousel-caption {
+        right: 4%;
+        left: 4%;
+
+        h2 {
+            font-size: 30px;
+            line-height: 35px;
+        }
+
+        .slide-image {
+            width: 450px;
+        }
+    }
+    .tabs {
+        .tabs-title {
+            font-size: 20px;
+        }
+        .nav-tabs {
+            li {
+                a {
+                    color: #848484;
+                    padding: 0 20px;
+                }
+            }
+        }
+        .header-title-line {
+            width: 650px;
+            margin-right: 160px;
+        }
+        .bg-white {
+            margin-left: 0;
+        }
+    }
+    .naseej-header-wrapper {
+        width: 1100px;
+    }
+    .carousel {
+        .block {
+            .block-title {
+                font-size: 15px;
+            }
+        }
+        .carousel-control {
+            display: block;
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .naseej-homepage-slider {
+        .carousel-caption {
+            right: 6%;
+            left: 11%;
+        }
+        .naseej-btn {
+            margin-left: 10px;
+        }
+    }
+    .tabs {
+        .tabs-title {
+            font-size: 25px;
+        }
+        .nav-tabs {
+            li {
+                a {
+                    color: #848484;
+                    padding: 0 20px;
+                }
+            }
+        }
+        .header-title-line {
+            width: 800px;
+            margin-right: 200px;
+        }
+        .bg-white {
+            margin-left: 15px;
+        }
+    }
+    .carousel {
+        .block {
+            .block-title {
+                font-size: 15px;
+            }
+        }
+        .carousel-control {
+            display: block;
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .naseej-homepage-slider {
+        .carousel-caption {
+            right: 8%;
+            left: 13%;
+        }
+    }
+    .tabs {
+        .tabs-title {
+            font-size: 35px;
+        }
+        .nav-tabs {
+            li {
+                a {
+                    padding: 20px 40px;
+                }
+            }
+        }
+        .header-title-line {
+            border-bottom: 2px solid #e4d2a3;
+            margin-top: 35px;
+            width: 756px;
+            margin-right: 260px;
+        }
+        .bg-white {
+            margin-left: 5px;
+        }
+    }
+    .carousel {
+        .block {
+            .block-title {
+                font-size: 20px;
+            }
+        }
+        .carousel-control {
+            display: block;
+        }
+        .carousel-control.left,.carousel-control.right {
+            margin-right: -65px;
+            margin-left: -15px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .naseej-homepage-slider {
+        .carousel-caption {
+            right: 10%;
+            left: 15%;
+        }
+    }
+    .tabs {
+        .tabs-title {
+            font-size: 35px;
+        }
+        .nav-tabs {
+            li {
+                a {
+                    padding: 20px 40px;
+                }
+            }
+        }
+        .header-title-line {
+            border-bottom: 2px solid #e4d2a3;
+            margin-top: 35px;
+            width: 756px;
+            margin-right: 260px;
+        }
+        .bg-white {
+            margin-left: 5px;
+        }
+    }
+    .carousel {
+        .block {
+            .block-title {
+                font-size: 20px;
+            }
+        }
+        .carousel-control {
+            display: block;
+        }
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .naseej-homepage-slider {
+        .carousel-caption {
+            right: 12%;
+            left: 17%;
+        }
+    }
+    .tabs {
+        .tabs-title {
+            font-size: 35px;
+        }
+        .nav-tabs {
+            li {
+                a {
+                    padding: 20px 40px;
+                }
+            }
+        }
+        .header-title-line {
+            border-bottom: 2px solid #e4d2a3;
+            margin-top: 35px;
+            width: 756px;
+            margin-right: 260px;
+        }
+        .bg-white {
+            margin-left: 5px;
+        }
+    }
+    .carousel {
+        .block {
+            .block-title {
+                font-size: 20px;
+            }
+        }
+        .carousel-control {
+            display: block;
+        }
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .naseej-homepage-slider {
+        .carousel-caption {
+            right: 14%;
+            left: 19%;
+        }
+    }
+    .tabs {
+        .tabs-title {
+            font-size: 35px;
+        }
+        .nav-tabs {
+            li {
+                a {
+                    padding: 20px 40px;
+                }
+            }
+        }
+        .header-title-line {
+            border-bottom: 2px solid #e4d2a3;
+            margin-top: 35px;
+            width: 756px;
+            margin-right: 260px;
+        }
+        .bg-white {
+            margin-left: 5px;
+        }
+    }
+    .carousel {
+        .block {
+            .block-title {
+                font-size: 20px;
+            }
+        }
+        .carousel-control {
+            display: block;
+        }
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .naseej-homepage-slider {
+        .carousel-caption {
+            right: 16%;
+            left: 21%;
+        }
+    }
+    .tabs {
+        .tabs-title {
+            font-size: 35px;
+        }
+        .nav-tabs {
+            li {
+                a {
+                    padding: 20px 40px;
+                }
+            }
+        }
+        .header-title-line {
+            border-bottom: 2px solid #e4d2a3;
+            margin-top: 35px;
+            width: 756px;
+            margin-right: 260px;
+        }
+        .bg-white {
+            margin-left: 5px;
+        }
+    }
+    .carousel {
+        .block {
+            .block-title {
+                font-size: 20px;
+            }
+        }
+        .carousel-control {
+            display: block;
+        }
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    .naseej-homepage-slider {
+        .carousel-caption {
+            right: 18%;
+            left: 23%;
+        }
+    }
+    .tabs {
+        .tabs-title {
+            font-size: 35px;
+        }
+        .nav-tabs {
+            li {
+                a {
+                    padding: 20px 40px;
+                }
+            }
+        }
+        .header-title-line {
+            border-bottom: 2px solid #e4d2a3;
+            margin-top: 35px;
+            width: 756px;
+            margin-right: 260px;
+        }
+        .bg-white {
+            margin-left: 5px;
+        }
+    }
+    .carousel {
+        .block {
+            .block-title {
+                font-size: 20px;
+            }
+        }
+        .carousel-control {
+            display: block;
+        }
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    .naseej-homepage-slider {
+        .carousel-caption {
+            right: 20%;
+            left: 25%;
+            h2 {
+                font-size: 40px;
+                line-height: 60px;
+            }
+            .slide-image {
+                width: auto;
+            }
+        }
+    }
+    .tabs {
+        .tabs-title {
+            font-size: 35px;
+        }
+        .nav-tabs {
+            li {
+                a {
+                    padding: 20px 40px;
+                }
+            }
+        }
+        .header-title-line {
+            border-bottom: 2px solid #e4d2a3;
+            margin-top: 35px;
+            width: 756px;
+            margin-right: 260px;
+        }
+        .bg-white {
+            margin-left: 5px;
+        }
+    }
+    .carousel {
+        .block {
+            .block-title {
+                font-size: 20px;
+            }
+        }
+        .carousel-control {
+            display: block;
+        }
+    }
+}
